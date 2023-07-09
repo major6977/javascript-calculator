@@ -43,7 +43,7 @@ class Calculator {
       case "*":
         computation = prev * current;
         break;
-      case "&#247;":
+      case "+":
         computation = prev / current;
         break;
       default:
